@@ -1,1 +1,0 @@
-**SO-EXAM3 IMAGES**
