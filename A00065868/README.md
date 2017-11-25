@@ -135,12 +135,15 @@ Se verifica que el balanceador esté funcionando:
 | Microservicio 192.168.130.245 | ![][13] |  
 | Microservicio 192.168.130.236 | ![][14] |  
 | Microservicio 192.168.130.231 | ![][15] |  
+  
+  
 Al hacer la petición al balanceador en el ***Browser*** el escoje a que servidor envía esa petición, esto lo hace utilizando el método de balanceo **roundrobin**.  
+
 |Petición al balanceador | Browser | 
 | --- | --- |
 | Redirección desde 192.168.130.140 a 192.168.130.236 | ![][16] |  
   
-**5.**  Cuando se incluyen diferentes microservicios en una aplicación y se necesitan al mismo tiempo es difícil acceder a ellos, además de que cada cliente necesita cceder a datos diferentes, para eso se emplea el balanceador, un **API Gateway** funciona como un balanceador, es el punto de entrada para todos los clientes, maneja a las peticiones del cliente de dos formas, las simples la enruta al servicio apropiado, y las complejas las maneja moviéndose entre los diferentes servicios que necesita, la diferencia entre un APIGateway y un load-balancer quizás es que el último provee Healthcheck y persistencia en la sesión. Como dirigir las peticiones del cliente adecuadamente se relaciona APIGateway, el paradigma reactivo y los balanceadores de carga. En nuestra implementación era posible implementar un APIGateway y el balanceador de carga y liberar al APIGateway del balnceo de cargas o se puede hacer que el ejecute todo el balanceo, pues también se ha demostrado que emplea algo como el método **round robin** en algunos casos. 
+**5.**  Cuando se incluyen diferentes microservicios en una aplicación y se necesitan al mismo tiempo es difícil acceder a ellos, además de que cada cliente necesita cceder a datos diferentes, para eso se emplea el balanceador, un **API Gateway** funciona como un balanceador, es el punto de entrada para todos los clientes, maneja a las peticiones del cliente de dos formas, las simples la enruta al servicio apropiado, y las complejas las maneja moviéndose entre los diferentes servicios que necesita, la diferencia entre un APIGateway y un load-balancer quizás es que el último provee Healthcheck y persistencia en la sesión. Como dirigir las peticiones del cliente adecuadamente se relaciona APIGateway, el paradigma reactivo y los balanceadores de carga. En nuestra implementación era posible implementar un APIGateway y el balanceador de carga y liberar al APIGateway del balnceo de cargas o se puede hacer que el ejecute todo el balanceo, pues también se ha demostrado que emplea algo como el método **round robin** en algunos casos.  
 ![][17]
 
 
@@ -167,7 +170,7 @@ https://www.nginx.com/blog/building-microservices-using-an-api-gateway/
 [14]: images/ClienteIguazo.PNG
 [15]: images/ClienteElMicroservicio.PNG
 [16]: images/RedireccionLB.PNG
-[17]: images/Microservices.png
+[17]: images/MicroservicesArchutecture.png
 
 
 
