@@ -7,6 +7,8 @@
   
 **Estudiante:** Ana Fernanda Valderrama V.  
 **Código:** A00065868  
+**URLGithub:** https://github.com/AnaValderrama25/so-exam3/tree/A00065868/A00065868  
+
 
 
 ### Objetivos
