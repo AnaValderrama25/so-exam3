@@ -170,7 +170,7 @@ https://www.nginx.com/blog/building-microservices-using-an-api-gateway/
 [14]: images/ClienteIguazo.PNG
 [15]: images/ClienteElMicroservicio.PNG
 [16]: images/RedireccionLB.PNG
-[17]: images/MicroservicesArchutecture.png
+[17]: images/MicroservicesArchitecture.png
 
 
 
