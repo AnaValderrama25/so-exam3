@@ -155,6 +155,11 @@ http://microservices.io/patterns/microservices.html
 http://microservices.io/patterns/apigateway  
 https://ronanquillevere.github.io/2017/09/28/gateway-lb-reverse-proxy.html#.WhjUZ1XibIU  
 https://www.nginx.com/blog/building-microservices-using-an-api-gateway/  
+https://www.upcloud.com/support/haproxy-load-balancer-centos/  
+https://www.datawire.io/guide/traffic/service-discovery-microservices/  
+https://signalfx.com/blog/4-things-to-know-about-load-balancing/  
+https://www.nginx.com/blog/service-discovery-in-a-microservices-architecture/  
+https://www.dynatrace.com/blog/load-balancing-microservices/  
 
 [1]: images/Microservices_Deployment.png  
 [2]: images/puertosFirewall.PNG  
